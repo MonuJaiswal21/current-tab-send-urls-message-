@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Link Analyzer</title>
+    <style>
+        body {
+            width: 800px;
+            height: 500px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        li {
+            margin-bottom: 5px;
+            word-break: break-word;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Tab Get Urls</h1>
+    <button id="analyzeButton">Click Me</button>
+    <ul id="linksList"></ul>
+    <script src="popup.js"></script>
+</body>
+</html> 
+
+
